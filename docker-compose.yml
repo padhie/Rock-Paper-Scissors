@@ -1,0 +1,7 @@
+version: '3'
+services:
+  Rock-Paper-Scissors:
+    image: python:3
+    volumes:
+      - ".:/application"
+    working_dir: "/application"
